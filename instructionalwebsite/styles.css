@@ -1,0 +1,112 @@
+body {
+    font-family: Courier;
+    background-color: gray;
+}
+
+.header {
+    background-color:black;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: 52px;
+    letter-spacing: .15em;
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 4s steps(30, end)
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(52,52,52);
+    padding-left: 30px
+    
+}
+
+.topnav a {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align:center;
+    padding: 14px;
+    font-size: 20px;
+    font-family: Courier New;
+    text-decoration: none;
+    width: 17%
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: white;
+   }
+
+.card {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.introduction {
+    text-align: left;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    padding: 10px;
+    float: inherit;
+    margin-top: 20px
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.icon {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 10px
+}
+
+.direct {
+    text-decoration: underline;
+    color: black
+}
+
+.video {
+    float: right;
+    padding-left: 20px
+}
+
+.arrow {
+    float: right;
+    
+}
+
+table, th, td {
+    padding: 5px;
+    text-align: center;
+    border: 2px;
+    border-collapse: collapse
+}
+
+th {
+    text-decoration: underline
+}
+
+.image {
+    padding-top: 20px
+}
